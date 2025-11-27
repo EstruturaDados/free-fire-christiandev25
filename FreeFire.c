@@ -1,9 +1,23 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
-// Código da Ilha – Edição Free Fire
+
+typedef struct {
+    char nome[30];
+    char tipo[20];
+    int quantidade;
+} Item;
+
+// ---------------------------------------------------------------
+// Função para inserir um item na mochila
+// Recebe o vetor e seu tamanho atual por referência.
+// ---------------------------------------------------------------
+void inserirItem(Item mochila[], int *tamanho) {
+
+    if (*tamanho >=*
+ Ilha – Edição Free Fire
 // Nível: Mestre
 // Este programa simula o gerenciamento avançado de uma mochila com componentes coletados durante a fuga de uma ilha.
 // Ele introduz ordenação com critérios e busca binária para otimizar a gestão dos recursos.
